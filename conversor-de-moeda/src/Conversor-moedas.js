@@ -1,7 +1,7 @@
 import React from 'react';
 import './conversor-moedas.css';
 import {Jumbotron, Button, Form, Col, Spinner, Alert, Modal} from 'react-bootstrap';
-
+import ListarMoedas from './listar-moedas';
 
 function ConversorMoeda() {
   return (
@@ -17,13 +17,17 @@ function ConversorMoeda() {
             <Form.Control placeholder="0" value={1} required/>
           </Col>
           <Col sm="3">
-            <Form.Control as="select"></Form.Control>
+            <Form.Control as="select">
+              <ListarMoedas />
+            </Form.Control>
           </Col>
           <Col sm="1" className="text-center" style={{paddingTop:"5px"}}>
             <span>`{`>>`}`</span>
           </Col>
           <Col sm="3">
-          <Form.Control as="select"></Form.Control>
+          <Form.Control as="select">
+            <ListarMoedas />
+          </Form.Control>
           </Col>
           <Col sm="2">
             <Button variant="success" type="submit">
@@ -33,7 +37,7 @@ function ConversorMoeda() {
           </Col>
         </Form.Row>
       </Form>
-      <Modal show={true}>
+      <Modal show={false}>
         <Modal.Header closeButton>
           <Modal.Title>Conversão</Modal.Title>
         </Modal.Header>
