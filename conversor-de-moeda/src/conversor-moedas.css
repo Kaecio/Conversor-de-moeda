@@ -1,0 +1,12 @@
+body{
+  background: #9b2c2c;
+}
+.hidden{
+  display:none;
+}
+h1{
+  text-align:center;
+  font-weight: 900;
+  color:#00b1c9;
+  padding:50px 0px;
+}
