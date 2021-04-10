@@ -7,7 +7,7 @@ import axios from 'axios';
 
 function ConversorMoeda() {
 
-  const FIXER_URL = `http://data.fixer.io/api/latest?access_key=eba7130a5b2d720ce43eb5fcddd47cc`;
+  const FIXER_URL = `http://data.fixer.io/api/latest?access_key=eba7130a5b2d720ce43eb5fcddd47cc3`;
 
   const [valor, setValor] = useState('1');
   const [moedaDe, setMoedaDe] = useState('BRL');
@@ -104,7 +104,7 @@ const exibirErro = () =>{
           </Form.Control>
           </Col>
           <Col sm="2">
-            <Button variant="success" type="submit" >
+            <Button variant="success" type="submit" data-testid="btn-converter" >
             <span className={exibirSpinner? null : 'hidden'} >
             <Spinner animation="border" size="sm" />
             </span>
@@ -115,7 +115,7 @@ const exibirErro = () =>{
           </Col>
         </Form.Row>
       </Form>
-      <Modal show={exibirModal} onHide={handleCloserModal}>
+      <Modal show={exibirModal} onHide={handleCloserModal} data-testid="modal">
         <Modal.Header closeButton>
           <Modal.Title>Conversão</Modal.Title>
         </Modal.Header>
