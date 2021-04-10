@@ -1,6 +1,9 @@
-.title{
-  color:#6f94b9;
+.title h3{
+  color:#3394f5;
   text-align: center;
+  font-weight: 700;
+  font-size: 2.2em;
+  padding: 0 0 20px;
 }
 
 .container-article1{
