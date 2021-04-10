@@ -1,18 +1,28 @@
-import React from 'react'
+import React from 'react';
+import duvida from '../img/duvida.jpg';
+import './articles.css'
+
 
 function Articles() {
   return (
     <div>
-      <div>
-      <h2>Dúvida grande...</h2>
-      <h3>Pago imposto quando compro em dolar alguma mercadoria online?</h3>
+      <div className="title">
+      <h3>Dúvida grande...</h3>
+      </div>
+      <div className="container-article1">
+      <div className="article-1">
+      <h2>Pago imposto quando compro em dolar alguma mercadoria online?</h2>
     <p>Sim, não tem pra onde correr. Quando você realiza alguma compra online
     ultilizando o seu cartão de crédito internacional, o imposto sobre Operações Financeiras, o IOF será
     cobrado do seu cartão de ccrédito mas fique atento, pois se você comprar uma mercadoria no dia 2 
     e o seu cartão fecha no dia 25, será cobrando o IOF referente ao dia de fechamento do cartão. Legal ne? Não!
     Depende, se o dollar baixar no dia do fechamento, ai será com um bonus, um desonto mas se o dollar aumentar isso
     não será agradavel. Então fique atento. </p>
-      </div>
+    </div>
+    <div className="img-responsive">
+      <img src={duvida} alt="Duvida" width={200} height={200}/>
+    </div>
+    </div>
       <div>
         <h2>O que é esse Benedito IOF?</h2>
         <p>Imposto sobre Operações Financeiras conhecido como "IOF" foi criado em  20 de outubro 1996. É uma tributação que incide sobre uma 

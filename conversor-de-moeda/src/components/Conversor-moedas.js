@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './conversor-moedas.css';
 import {Jumbotron, Button, Form, Col, Spinner, Alert, Modal} from 'react-bootstrap';
-import ListarMoedas from './listar-moedas';
+import ListarMoedas from '../listar-moedas';
 import axios from 'axios';
 
 

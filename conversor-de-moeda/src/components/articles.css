@@ -1,0 +1,30 @@
+.title{
+  color:#6f94b9;
+  text-align: center;
+}
+
+.container-article1{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  background:rgb(228, 228, 228);
+  padding:10px 15px;
+}
+
+p{
+  color:rgb(34, 34, 34);
+  text-align: justify;
+  padding-right: 20px;
+  line-height:2;
+  padding:10px 15px;
+}
+
+h2{
+  font-weight:700;
+  color:rgb(150, 18, 18);
+  padding:10px 15px;
+}
+
+.img-responsive img{
+  border-radius: 4px;
+}

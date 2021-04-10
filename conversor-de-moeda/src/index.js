@@ -1,14 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import ConversorMoedas from './Conversor-moedas';
+import ConversorMoedas from './components/Conversor-moedas';
 import reportWebVitals from './reportWebVitals';
+import Articles from './components/articles';
+import './index.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Articles from './articles';
 
 ReactDOM.render(
   <React.StrictMode>
-    <ConversorMoedas />
+    <ConversorMoedas/>
     <Articles />
   </React.StrictMode>,
   document.getElementById('root')
