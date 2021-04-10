@@ -14,7 +14,7 @@ function Articles() {
       <h2>Pago imposto quando compro em dolar alguma mercadoria online?</h2>
     <p>Sim, não tem pra onde correr. Quando você realiza alguma compra online
     ultilizando o seu cartão de crédito internacional, o imposto sobre Operações Financeiras, o IOF será
-    cobrado do seu cartão de ccrédito mas fique atento, pois se você comprar uma mercadoria no dia 2 
+    cobrado do seu cartão de crédito mas fique atento, pois se você comprar uma mercadoria no dia 2 
     e o seu cartão fecha no dia 25, será cobrando o IOF referente ao dia de fechamento do cartão. Legal ne? Não!
     Depende, se o dollar baixar no dia do fechamento, ai será com um bonus, um desonto mas se o dollar aumentar isso
     não será agradavel. Então fique atento. </p>
