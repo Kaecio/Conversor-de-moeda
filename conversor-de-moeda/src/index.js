@@ -4,10 +4,12 @@ import './index.css';
 import ConversorMoedas from './Conversor-moedas';
 import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Articles from './articles';
 
 ReactDOM.render(
   <React.StrictMode>
     <ConversorMoedas />
+    <Articles />
   </React.StrictMode>,
   document.getElementById('root')
 );

@@ -76,7 +76,7 @@ const exibirErro = () =>{
 
   return (
     <div>
-    <h1>Conversor de Moedas...</h1>
+    <h1>Conversor de Moedas</h1>
     <Alert variant="danger" show={msgError}>
       Erro ao obter a moeda, tente novamente.
     </Alert>
